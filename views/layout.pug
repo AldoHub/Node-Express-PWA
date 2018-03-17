@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title The HTML5 Herald
+    meta(name='description', content='A simple nodejs express pwa')
+    meta(name='viewport', content='width=device-width')
+    link(rel='stylesheet', href='main.css')
+    link(rel="manifest", href="../manifest.json")
+    //if lt IE 9
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js')
+  body
+    
+    block content
+    
+    //load the sw
+    script(src='loader.js')

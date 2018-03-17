@@ -1,0 +1,16 @@
+body{
+    background: #222;
+    color: aliceblue;
+    margin: 0 auto;
+    padding: 0px;
+}
+main {
+    display: grid;
+    margin: 0 auto;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main div.user img {
+    border-radius: 100%;
+}

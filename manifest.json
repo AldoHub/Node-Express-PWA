@@ -1,0 +1,5 @@
+{ 
+    "short_name": "Node-Express-PWA",
+    "name": "Node and Express PWA",
+    "start_url": "/"
+  }

@@ -1,0 +1,13 @@
+extends layout
+block content
+    header
+        h1 Node / Express PWA.
+    
+    main
+        each user in users
+            div.user
+                img(src=user.picture.large)
+                p=user.name.title
+                h2=user.name.first 
+                p=user.name.last
+
